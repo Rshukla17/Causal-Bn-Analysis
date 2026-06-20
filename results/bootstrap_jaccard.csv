@@ -1,0 +1,2 @@
+point_estimate,ci_lower,ci_upper,mean,sd,n_valid,p_value_vs_1
+0.0889,0.0,0.1891,0.0506,0.0541,500,0.0

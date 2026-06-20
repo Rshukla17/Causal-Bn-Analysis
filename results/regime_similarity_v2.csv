@@ -1,0 +1,2 @@
+comparison,arcs_in_pre_3plus,arcs_in_post_3plus,shared_3plus,jaccard_3plus,arcs_in_pre_4only,arcs_in_post_4only,shared_4only,jaccard_4only,hamming_distance_3plus
+pre vs post,83,65,29,0.244,13,25,4,0.118,90

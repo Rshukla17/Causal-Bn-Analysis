@@ -1,0 +1,91 @@
+cause,effect,n_breaks,break_dates,fstats
+CrudeOil,UNRATE_chg,1,['2020-03'],[np.float64(52.02)]
+CrudeOil,PCE_chg,1,['2020-03'],[np.float64(35.26)]
+FEDFUNDS_chg,CrudeOil,1,['2009-04'],[np.float64(9.65)]
+FEDFUNDS_chg,UNRATE_chg,2,"['2017-11', '2020-05']","[np.float64(18.65), np.float64(229.17)]"
+FEDFUNDS_chg,PCE_chg,2,"['2017-11', '2020-05']","[np.float64(35.21), np.float64(68.58)]"
+FEDFUNDS_chg,M2_chg,1,['2020-03'],[np.float64(25.05)]
+INDPRO_chg,PCE_chg,2,"['2017-11', '2020-05']","[np.float64(33.36), np.float64(34.71)]"
+INDPRO_chg,CrudeOil,1,['2008-11'],[np.float64(11.95)]
+M2_chg,CrudeOil,1,['2018-10'],[np.float64(10.14)]
+PCE_chg,FEDFUNDS_chg,3,"['2009-01', '2017-11', '2020-05']","[np.float64(74.73), np.float64(3.86), np.float64(9.53)]"
+PCE_chg,M2_chg,1,['2020-06'],[np.float64(72.19)]
+PCE_chg,INDPRO_chg,3,"['2009-07', '2017-07', '2020-05']","[np.float64(74.44), np.float64(10.69), np.float64(7.21)]"
+PCE_chg,CrudeOil,1,['2020-05'],[np.float64(9.48)]
+SP500,CrudeOil,0,[],[]
+UNRATE_chg,PCE_chg,2,"['2017-11', '2020-05']","[np.float64(46.05), np.float64(27.72)]"
+UNRATE_chg,INDPRO_chg,2,"['2017-10', '2020-05']","[np.float64(40.0), np.float64(23.26)]"
+UNRATE_chg,M2_chg,1,['2020-03'],[np.float64(12.46)]
+UNRATE_chg,CrudeOil,0,[],[]
+UNRATE_chg,FEDFUNDS_chg,2,"['2017-11', '2020-05']","[np.float64(24.17), np.float64(20.7)]"
+VIX,REIT,1,['2009-01'],[np.float64(13.17)]
+CPI_chg,FEDFUNDS_chg,0,[],[]
+CPI_chg,M2_chg,1,['2020-03'],[np.float64(49.15)]
+CrudeOil,M2_chg,1,['2020-03'],[np.float64(20.78)]
+CrudeOil,INDPRO_chg,1,['2020-03'],[np.float64(52.94)]
+CrudeOil,CPI_chg,2,"['2009-01', '2020-11']","[np.float64(29.97), np.float64(25.37)]"
+CrudeOil,REIT,1,['2009-05'],[np.float64(12.81)]
+EPU_chg,ConsumerConf_chg,0,[],[]
+EPU_chg,CPI_chg,1,['2020-06'],[np.float64(15.64)]
+EPU_chg,UNRATE_chg,1,['2020-02'],[np.float64(11.42)]
+EPU_chg,PCE_chg,1,['2020-03'],[np.float64(10.45)]
+EuroUSD,CPI_chg,2,"['2008-12', '2020-12']","[np.float64(21.24), np.float64(11.23)]"
+FEDFUNDS_chg,INDPRO_chg,3,"['2009-03', '2017-11', '2020-05']","[np.float64(17.32), np.float64(63.31), np.float64(6.77)]"
+FEDFUNDS_chg,Nasdaq,1,['2009-04'],[np.float64(10.27)]
+FEDFUNDS_chg,VIX,0,[],[]
+GPR_chg,UNRATE_chg,0,[],[]
+GPR_chg,FEDFUNDS_chg,0,[],[]
+Gold,CPI_chg,1,['2020-12'],[np.float64(17.73)]
+Gold,M2_chg,0,[],[]
+INDPRO_chg,M2_chg,2,"['2017-12', '2020-06']","[np.float64(16.4), np.float64(9.1)]"
+INDPRO_chg,YieldSpread_chg,0,[],[]
+INDPRO_chg,REIT,1,['2009-03'],[np.float64(17.64)]
+INDPRO_chg,UNRATE_chg,2,"['2017-11', '2020-05']","[np.float64(21.06), np.float64(88.73)]"
+M2_chg,PCE_chg,2,"['2017-10', '2020-05']","[np.float64(65.86), np.float64(69.43)]"
+M2_chg,INDPRO_chg,2,"['2017-08', '2020-05']","[np.float64(46.62), np.float64(52.54)]"
+M2_chg,PoundUSD,0,[],[]
+M2_chg,EuroUSD,0,[],[]
+M2_chg,CPI_chg,2,"['2009-01', '2020-05']","[np.float64(18.48), np.float64(9.04)]"
+M2_chg,UNRATE_chg,2,"['2017-08', '2020-05']","[np.float64(50.38), np.float64(183.93)]"
+Nasdaq,PCE_chg,1,['2020-03'],[np.float64(18.35)]
+Nasdaq,INDPRO_chg,1,['2020-02'],[np.float64(9.54)]
+Nasdaq,M2_chg,2,"['2017-11', '2020-05']","[np.float64(16.52), np.float64(9.32)]"
+Nasdaq,CPI_chg,2,"['2009-01', '2020-05']","[np.float64(25.65), np.float64(9.3)]"
+PCE_chg,VIX,0,[],[]
+PCE_chg,UNRATE_chg,2,"['2017-11', '2020-05']","[np.float64(174.88), np.float64(86.23)]"
+PoundUSD,PCE_chg,2,"['2017-11', '2020-05']","[np.float64(8.22), np.float64(7.71)]"
+PoundUSD,ConsumerConf_chg,0,[],[]
+PoundUSD,INDPRO_chg,0,[],[]
+REIT,INDPRO_chg,1,['2020-02'],[np.float64(30.7)]
+REIT,EuroUSD,0,[],[]
+REIT,YieldSpread_chg,0,[],[]
+REIT,CPI_chg,2,"['2009-01', '2020-12']","[np.float64(19.76), np.float64(9.07)]"
+REIT,CrudeOil,0,[],[]
+REIT,PCE_chg,1,['2020-03'],[np.float64(52.17)]
+REIT,ConsumerConf_chg,0,[],[]
+REIT,M2_chg,1,['2020-03'],[np.float64(12.37)]
+Russell3000,PCE_chg,1,['2020-03'],[np.float64(39.89)]
+Russell3000,ConsumerConf_chg,0,[],[]
+Russell3000,M2_chg,2,"['2017-10', '2020-05']","[np.float64(19.56), np.float64(17.01)]"
+Russell3000,VIX,0,[],[]
+Russell3000,REIT,1,['2009-10'],[np.float64(9.87)]
+Russell3000,INDPRO_chg,1,['2020-03'],[np.float64(20.01)]
+Russell3000,CrudeOil,0,[],[]
+SP500,CPI_chg,2,"['2009-02', '2020-05']","[np.float64(23.02), np.float64(12.86)]"
+SP500,VIX,0,[],[]
+SP500,REIT,1,['2010-07'],[np.float64(11.65)]
+SP500,PCE_chg,1,['2020-03'],[np.float64(37.14)]
+SP500,INDPRO_chg,1,['2020-03'],[np.float64(17.58)]
+SP500,ConsumerConf_chg,0,[],[]
+SP500,M2_chg,2,"['2017-10', '2020-05']","[np.float64(18.96), np.float64(15.38)]"
+VIX,ConsumerConf_chg,0,[],[]
+VIX,M2_chg,1,['2020-03'],[np.float64(8.76)]
+VIX,CPI_chg,2,"['2008-12', '2020-06']","[np.float64(19.23), np.float64(9.05)]"
+VIX,CrudeOil,2,"['2018-05', '2020-11']","[np.float64(6.89), np.float64(12.2)]"
+VIX,UNRATE_chg,0,[],[]
+VIX,FEDFUNDS_chg,0,[],[]
+VIX,PCE_chg,1,['2020-02'],[np.float64(14.86)]
+VIX,INDPRO_chg,0,[],[]
+YieldSpread_chg,M2_chg,1,['2020-03'],[np.float64(13.94)]
+YieldSpread_chg,EuroUSD,0,[],[]
+YieldSpread_chg,CPI_chg,2,"['2009-01', '2020-06']","[np.float64(15.72), np.float64(15.3)]"
